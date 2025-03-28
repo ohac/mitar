@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 for npub in $(cat npubs.txt); do
   npubshort=$(echo -n $npub | grep -o ^npub1................)
   mkdir -p $npubshort
