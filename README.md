@@ -12,3 +12,9 @@ or
 ```
 nix-shell -p opentimestamps-client
 ```
+
+verify
+
+```
+ots --no-bitcoin verify commit_hash.txt.ots
+```
